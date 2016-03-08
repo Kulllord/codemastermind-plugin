@@ -1,0 +1,29 @@
+{
+	"name": "codemastermind-plugin",
+	"description": "My Custom Plugin",
+	"keywords": [""],
+	"author": "Christopher Parker",
+	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kulllord/codemastermind-plugin"
+	},
+	"dependencies": {
+		"autoprefixer": "^6.3.2",
+		"css-mqpacker": "^4.0.0",
+		"glob": "^7.0.0",
+		"grunt": "^0.4.5",
+		"grunt-contrib-concat": "^0.5.1",
+		"grunt-contrib-jshint": "^0.12.0",
+		"grunt-contrib-uglify": "^0.11.1",
+		"grunt-contrib-watch": "^0.6.1",
+		"grunt-cssnano": "^2.0.1",
+		"grunt-githooks": "^0.5.0",
+		"grunt-notify": "^0.4.3",
+		"grunt-phpcs": "^0.4.0",
+		"grunt-postcss": "^0.7.1",
+		"grunt-sass": "^1.1.0",
+		"load-grunt-tasks": "^3.4.0"
+	},
+	"license": ""
+}
