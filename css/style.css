@@ -130,23 +130,23 @@ a.cmmp-button:hover {
 	cursor: pointer;
 }
 
-/* line 9, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 11, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-icon .svg-icon-bg,
 .cmmp-cta-tabs-icon .svg-icon-color {
 	transition: all 0.4s linear;
 }
 
-/* line 15, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 17, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-icon.selected .svg-icon-bg {
 	fill: #c41e3b;
 }
 
-/* line 19, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 21, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-icon.selected .svg-icon-color {
 	fill: #fff;
 }
 
-/* line 25, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 27, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-container {
 	border-radius: 4px;
 	margin-top: 20px;
@@ -159,7 +159,7 @@ a.cmmp-button:hover {
 }
 
 /* ==== pointer styles ==== */
-/* line 37, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 39, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-row,
 .cmmp-cta-tabs-pointer-box {
 	display: none;
@@ -170,24 +170,24 @@ a.cmmp-button:hover {
 	margin: 0 auto;
 }
 
-/* line 47, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 49, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-col {
 	height: 21px;
 }
 
-/* line 51, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 53, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-box {
 	left: 0;
 	margin: 0;
 	transition: all 0.2s linear;
 }
 
-/* line 56, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 58, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-box.raised {
 	top: -21px;
 }
 
-/* line 61, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 63, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-cover {
 	width: 100%;
 	height: 100%;
@@ -195,7 +195,7 @@ a.cmmp-button:hover {
 	position: relative;
 }
 
-/* line 68, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 70, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-under,
 .cmmp-cta-tabs-pointer-over {
 	width: 0;
@@ -210,7 +210,7 @@ a.cmmp-button:hover {
 	margin-left: -21px;
 }
 
-/* line 84, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 86, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-pointer-over {
 	border-width: 20px;
 	border-bottom-color: #fff;
@@ -218,7 +218,7 @@ a.cmmp-button:hover {
 }
 
 /* ==== content styles ==== */
-/* line 92, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 94, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-overflow-box {
 	overflow: hidden;
 	position: relative;
@@ -227,7 +227,7 @@ a.cmmp-button:hover {
 	transition: all 0.2s linear;
 }
 
-/* line 100, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 102, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box {
 	width: 100%;
 	background: #fff;
@@ -237,17 +237,17 @@ a.cmmp-button:hover {
 	transition: all 0.2s linear;
 }
 
-/* line 108, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 110, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box .cmmp-cta {
 	margin-top: 0;
 }
 
-/* line 111, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 113, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box .cmmp-cta-title {
 	display: none;
 }
 
-/* line 116, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 118, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box .cmmp-cta-icon-box img,
 .cmmp-cta-tabs-content-box .cmmp-cta-icon-box svg {
 	max-width: 100%;
@@ -255,44 +255,44 @@ a.cmmp-button:hover {
 	height: auto;
 }
 
-/* line 125, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 127, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box:last-child {
 	margin-bottom: 0;
 }
 
-/* line 128, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 130, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box:last-child .cmmp-cta-tabs-content-divider {
 	display: none;
 }
 
-/* line 133, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 135, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-box.combined {
 	z-index: 0;
 	opacity: 0;
 	position: absolute;
 }
 
-/* line 140, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 142, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content {
 	padding-top: 15px;
 }
 
-/* line 143, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 145, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content p {
 	margin: 0 0 15px;
 }
 
-/* line 148, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 150, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-title {
 	display: block;
 }
 
-/* line 151, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 153, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-title.normal_caps {
 	text-transform: none;
 }
 
-/* line 156, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+/* line 158, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-content-divider {
 	width: 90%;
 	clear: both;
@@ -312,13 +312,13 @@ a.cmmp-button:hover {
 	margin-bottom: 10px;
 }
 
-/* line 4, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 6, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-post-row::after {
 	width: 100%;
 	margin-bottom: 10px;
 }
 
-/* line 9, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 11, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-post {
 	border: 1px solid #d7d7d7;
 	border-radius: 4px;
@@ -327,20 +327,19 @@ a.cmmp-button:hover {
 }
 
 /* ==== Image Box Styles ==== */
-/* line 17, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 19, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-img-box-inner {
 	display: block;
 }
 
-/* line 19, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
-.cmmp-ean-img-box-inner:hover,
-.cmmp-ean-img-box-inner:active {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+.cmmp-ean-img-box-inner:hover, .cmmp-ean-img-box-inner:active {
 	outline: none;
 	border: none;
 }
 
 /* ==== Content Box Styles ==== */
-/* line 26, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 30, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-content-box-outer {
 	border-radius: 0 4px 4px 0;
 	border-left: 1px solid #d7d7d7;
@@ -353,7 +352,7 @@ a.cmmp-button:hover {
 	right: 0;
 }
 
-/* line 38, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 41, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-content-box-outer::after {
 	content: '';
 	display: block;
@@ -366,53 +365,53 @@ a.cmmp-button:hover {
 	background: #fff;
 }
 
-/* line 50, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 54, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-content {
 	margin-top: 5px;
 }
 
-/* line 52, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 57, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-block .cmmp-ean-content {
 	font-size: 0.875em;
 	overflow: hidden;
 }
 
-/* line 57, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 62, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-block .cmmp-ean-content p {
 	line-height: normal;
 }
 
-/* line 59, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 67, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-title {
 	margin: 0;
 	display: inline-block;
 }
 
-/* line 64, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
-.cmmp-ean-title-link:hover .cmmp-ean-title {
-	color: #c41e3b;
-}
-
-/* line 66, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 72, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-title-link:hover {
 	text-decoration: none;
 }
 
+/* line 75, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+.cmmp-ean-title-link:hover .cmmp-ean-title {
+	color: #c41e3b;
+}
+
 /* ==== Events Specific Styles ==== */
-/* line 70, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 82, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .post-type-pwi_events .cmmp-ean-content-box-inner {
 	margin-left: 85px;
 }
 
 /* ==== Event Date Box ==== */
-/* line 74, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 88, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-event-date-box {
 	position: absolute;
 	top: 15px;
 	left: 15px;
 }
 
-/* line 80, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 94, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-event-date {
 	border: 1px solid #d7d7d7;
 	text-align: center;
@@ -422,13 +421,13 @@ a.cmmp-button:hover {
 	width: 70px;
 }
 
-/* line 89, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 103, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-event-date-day {
 	font-size: 2em;
 }
 
 /* ==== seeall Button ==== */
-/* line 93, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 109, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-seeall-box .cmmp-button-box {
 	width: 100%;
 	text-align: right;
@@ -436,14 +435,14 @@ a.cmmp-button:hover {
 }
 
 /* ==== Loadmore Button ==== */
-/* line 100, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 116, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-loadmore-box .cmmp-button-box {
 	width: 100%;
 	text-align: center;
 	margin: 0;
 }
 
-/* line 106, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+/* line 122, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 .cmmp-ean-loading-gif {
 	text-align: center;
 	display: block;
@@ -714,60 +713,60 @@ a.cmmp-button:hover {
 	font-size: 0.875em;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {/* line 119, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+@media (min-width: 768px) and (max-width: 991px) {/* line 136, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-block .cmmp-ean-content-box-outer {
 		position: absolute;
-	}/* line 121, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+	}/* line 140, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-block .cmmp-ean-content-box-inner {
 		display: table;
 		height: 100%;
 		width: 100%;
-	}/* line 127, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+	}/* line 146, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-block.post-type-pwi_events .cmmp-ean-content-box-inner {
 		margin: 0;
 		padding-left: 85px;
-	}/* line 132, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+	}/* line 151, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-block .cmmp-ean-title-box {
 		display: table-cell;
 		vertical-align: middle;
-	}/* line 137, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+	}/* line 156, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-block .cmmp-ean-content {
 		display: none;
 	}
 }
 
-@media (min-width: 992px) {/* line 167, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+@media (min-width: 992px) {/* line 169, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-pointer-row,
 	.cmmp-cta-tabs-pointer-box {
 		display: block;
-	}/* line 170, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 172, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content-box {
 		position: absolute;
 		margin-bottom: 0;
-	}/* line 174, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 176, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content-box.selected, .cmmp-cta-tabs-content-box.combined.selected {
 		opacity: 1;
 		z-index: 10;
-	}/* line 180, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 182, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content-box .cmmp-cta-title {
 		display: block;
-	}/* line 185, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 187, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content {
 		padding-top: 0;
-	}/* line 188, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 190, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.selected > .cmmp-cta-tabs-content {
 		color: #c41e3b;
 		padding-top: 0;
-	}/* line 193, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 195, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.selected.default > .cmmp-cta-tabs-content {
 		color: #7c7e7d;
-	}/* line 197, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 199, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content > :last-child {
 		margin-bottom: 0;
-	}/* line 202, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 204, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-content-divider {
 		display: none;
-	}/* line 206, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
+	}/* line 208, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 	.cmmp-cta-tabs-title {
 		display: none;
 	}
@@ -815,13 +814,13 @@ a.cmmp-button:hover {
 	}
 }
 
-@media (max-width: 991px) {/* line 115, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+@media (max-width: 991px) {/* line 131, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-content-box-outer {
 		position: relative;
 	}
 }
 
-@media (max-width: 767px) {/* line 141, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
+@media (max-width: 767px) {/* line 164, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_events-news.scss */
 	.cmmp-ean-content-box-outer {
 		position: relative;
 	}/* line 194, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_impact.scss */
