@@ -177,7 +177,6 @@ module.exports = function(grunt) {
 
 	// Register Grunt tasks.
 	grunt.registerTask('styles', ['sass', 'postcss', 'cssnano']);
-	grunt.registerTask('styles2', ['sass', 'postcss']);
 	grunt.registerTask('javascript', ['concat', 'uglify']);
 	grunt.registerTask('default', ['styles']);
 
