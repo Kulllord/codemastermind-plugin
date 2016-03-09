@@ -27,6 +27,7 @@ module.exports = function(grunt) {
 			options: {
 				outputStyle: 'expanded',
 				indentType: 'tab',
+				indentWidth: 1,
 				precision: 8,
 				sourceComments: true,
 				sourceMap: true
