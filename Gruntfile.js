@@ -48,7 +48,17 @@ module.exports = function(grunt) {
 			options: {
 				map: true,
 				processors: [
-					require('autoprefixer')({ browsers: 'last 2 versions' }),
+					//require('autoprefixer')({ browsers: ['last 2 versions'] }),
+					require('autoprefixer')({ browsers: [
+						'Android 2.3',
+						'Android >= 4',
+						'Chrome >= 20',
+						'Firefox >= 24',
+						'Explorer >= 8',
+						'iOS >= 6',
+						'Opera >= 12',
+						'Safari >= 6'
+					] }),
 					require('css-mqpacker')({ sort: true })
 				]
 			},
@@ -167,6 +177,7 @@ module.exports = function(grunt) {
 
 	// Register Grunt tasks.
 	grunt.registerTask('styles', ['sass', 'postcss', 'cssnano']);
+	grunt.registerTask('styles2', ['sass', 'postcss']);
 	grunt.registerTask('javascript', ['concat', 'uglify']);
 	grunt.registerTask('default', ['styles']);
 
