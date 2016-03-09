@@ -1,0 +1,37 @@
+.cmmp-cta {
+	margin: 20px auto 0;
+	max-width: 300px;
+
+	&-icon-box {
+		text-align: center;
+
+		& img,
+		& svg {
+			max-width: 140px;
+			max-height: 140px;
+		}
+	}
+
+	&-title {
+		text-align: center;
+
+		&.normal_caps {
+			text-transform: none;
+		}
+	}
+
+	&-content {
+		text-align: center;
+		margin-bottom: 20px;
+
+		& p {
+			line-height: normal;
+			margin: 0;
+		}
+	}
+
+	& .cmmp-button-box {
+		display: block;
+		text-align: center;
+	}
+}

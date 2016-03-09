@@ -1,0 +1,85 @@
+/**
+* #.# All Shortcode Styles
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+/**
+* #.# Button Shortcode Styles
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+/* line 1, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_button.scss */
+.cmmp-button-box {
+		margin: 10px 0;
+		display: inline-block;
+}
+
+/* line 6, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_button.scss */
+a.cmmp-button {
+		text-transform: uppercase;
+		display: inline-block;
+		border: 1px solid #9b9a9b;
+		color: #7c7e7d;
+		padding: 10px 15px;
+		border-radius: 4px;
+}
+
+/* line 14, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_button.scss */
+a.cmmp-button:hover {
+		text-decoration: none;
+		border: 1px solid #c41e3b;
+		color: #fff;
+		background: #c41e3b;
+}
+
+/**
+* #.# CTA Shortcode Styles
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+/* line 1, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta {
+		margin: 20px auto 0;
+		max-width: 300px;
+}
+
+/* line 5, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-icon-box {
+		text-align: center;
+}
+
+/* line 8, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-icon-box img,
+.cmmp-cta-icon-box svg {
+		max-width: 140px;
+		max-height: 140px;
+}
+
+/* line 15, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-title {
+		text-align: center;
+}
+
+/* line 18, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-title.normal_caps {
+		text-transform: none;
+}
+
+/* line 23, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-content {
+		text-align: center;
+		margin-bottom: 20px;
+}
+
+/* line 27, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta-content p {
+		line-height: normal;
+		margin: 0;
+}
+
+/* line 33, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta.scss */
+.cmmp-cta .cmmp-button-box {
+		display: block;
+		text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
