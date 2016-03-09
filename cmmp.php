@@ -74,6 +74,14 @@ function cmmp_deactivation() {
 }
 register_deactivation_hook( __FILE__, 'cmmp_deactivation' );
 
+function cmmp_custom_scripts() {
+	wp_enqueue_style( 'cmmp-custom-css', plugins_url( '/css/style.css', __FILE__ ) );
+	// wp_enqueue_style( 'cmmp-custom-titlebar-css', plugins_url('/css/titlebar.css', __FILE__ ) );
+
+	// wp_enqueue_script( 'cmmp-cta-tabs-js', plugins_url( '/js/cta-tabs.js', __FILE__ ), array( 'jquery' ), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'cmmp_custom_scripts' );
+
 
 /*
  * Documentation Notes
