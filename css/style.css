@@ -133,6 +133,8 @@ a.cmmp-button:hover {
 /* line 11, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_cta-tabs.scss */
 .cmmp-cta-tabs-icon .svg-icon-bg,
 .cmmp-cta-tabs-icon .svg-icon-color {
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
 	transition: all 0.4s linear;
 }
 
@@ -154,7 +156,11 @@ a.cmmp-button:hover {
 	padding: 15px;
 	position: relative;
 	background: #fff;
-	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+	        box-sizing: content-box;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -179,6 +185,8 @@ a.cmmp-button:hover {
 .cmmp-cta-tabs-pointer-box {
 	left: 0;
 	margin: 0;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -224,6 +232,8 @@ a.cmmp-button:hover {
 	position: relative;
 	margin: 0 -15px;
 	padding: 0 15px;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -234,6 +244,8 @@ a.cmmp-button:hover {
 	position: relative;
 	margin-bottom: 15px;
 	z-index: 5;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
 
@@ -358,7 +370,8 @@ a.cmmp-button:hover {
 	display: block;
 	width: 100%;
 	height: 10px;
-	box-shadow: 0 0 5px 2px #fff;
+	-webkit-box-shadow: 0 0 5px 2px #fff;
+	        box-shadow: 0 0 5px 2px #fff;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -588,7 +601,8 @@ a.cmmp-button:hover {
 
 /* line 115, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_impact.scss */
 .cmmp-impact-button-box .cmmp-button-box {
-	box-shadow: 0 -5px 10px #fff;
+	-webkit-box-shadow: 0 -5px 10px #fff;
+	        box-shadow: 0 -5px 10px #fff;
 	width: 100%;
 	background: #fff;
 	margin-bottom: 0;
@@ -618,59 +632,77 @@ a.cmmp-button:hover {
 */
 /* line 1, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
 .cmmp-seperator {
-	border-bottom: 1px solid #d7d7d7;
-	margin-top: 20px;
-	margin: 20px auto 0;
-}
-
-/* line 6, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-seperator-box {
 	width: 100%;
+	border-color: #d7d7d7;
 }
 
-/* line 12, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-10 {
+/* line 5, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-align-left {
+	float: left;
+}
+
+/* line 9, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-align-right {
+	float: right;
+}
+
+/* line 13, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width, .cmmp-seperator-width-10, .cmmp-seperator-width-20, .cmmp-seperator-width-30, .cmmp-seperator-width-40, .cmmp-seperator-width-50, .cmmp-seperator-width-60, .cmmp-seperator-width-70, .cmmp-seperator-width-80, .cmmp-seperator-width-90, .cmmp-seperator-width-100 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: inherit;
+	margin: 20px auto 0;
+	display: inline-block;
+}
+
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-10 {
 	width: 10%;
 }
 
-/* line 16, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-20 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-20 {
 	width: 20%;
 }
 
-/* line 20, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-30 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-30 {
 	width: 30%;
 }
 
-/* line 24, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-40 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-40 {
 	width: 40%;
 }
 
-/* line 28, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-50 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-50 {
 	width: 50%;
 }
 
-/* line 32, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-60 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-60 {
 	width: 60%;
 }
 
-/* line 36, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-70 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-70 {
 	width: 70%;
 }
 
-/* line 40, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-80 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-80 {
 	width: 80%;
 }
 
-/* line 44, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
-.cmmp-sep-width-90 {
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-90 {
 	width: 90%;
+}
+
+/* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
+.cmmp-seperator-width-100 {
+	width: 100%;
 }
 
 /**
