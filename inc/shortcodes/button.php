@@ -8,7 +8,7 @@
 
 $attributes = '';
 $attributes .= ( ! empty( $atts['id'] ) ) ? 'id="' . $atts['id'] . '" ' : '';
-$attributes .= 'class="cmmp-button' . $atts['class'] . '" ';
+$attributes .= 'class="cmmp-button ' . $atts['class'] . '" ';
 $attributes .= ( ! empty( $atts['link'] ) ) ? 'href="' . $atts['link'] . '" ' : '';
 $attributes .= ( ! empty( $atts['target'] ) ) ? 'target="' . $atts['target'] . '" ' : '';
 $attributes .= ( ! empty( $atts['link_title'] ) ) ? 'title="' . $atts['title'] . '" ' : 'title="' . $atts['text'] . '" ';
