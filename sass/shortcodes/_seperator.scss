@@ -10,18 +10,18 @@
 		float: right;
 	}
 
-	&-width {
-		border-bottom-width: 1px;
-		border-bottom-style: solid;
-		border-bottom-color: inherit;
-		margin: 20px auto 0;
-		display: block;
-	}
-
 	@for $i from 1 through 10 {
 		&-width-#{$i * 10} {
-			@extend .cmmp-seperator-width;
+			@extend %seperator-width;
 			width: $i * 10%;
 		}
 	}
+}
+
+%seperator-width {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: inherit;
+	margin: 20px auto 0;
+	display: block;
 }
