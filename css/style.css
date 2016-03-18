@@ -652,7 +652,7 @@ a.cmmp-button:hover {
 	border-bottom-style: solid;
 	border-bottom-color: inherit;
 	margin: 20px auto 0;
-	display: inline-block;
+	display: block;
 }
 
 /* line 22, C:/xampp/htdocs/v-hosts/cm/wp-content/plugins/cmmp/sass/shortcodes/_seperator.scss */
