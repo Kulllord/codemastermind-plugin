@@ -47,8 +47,10 @@ include('inc/shortcodes.php');
 
 function cmmp_setup_post_types() {
 
-	// Register our "book" custom post type
-	//register_post_type( 'book', array( 'public' => 'true' ) );
+	/**
+	 * Load Custom Post Types.
+	 */
+	include 'inc/custom-post-types.php';
 
 }
 add_action( 'init', 'cmmp_setup_post_types' );
